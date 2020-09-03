@@ -1,20 +1,20 @@
 # nextjs-test
-just for learning next js
+just for testing next js app
 
-## my-app
-Created this app and the workspace mysandbox for testing stuff
-### create command
+## mysandbox
+this workspace was generated with the command 
 ```
-npx create-next-app --example with-typescript my-app
+ npx create-nx-workspace mysandbox --preset=next --appName=my-app
 ```
-### how to start my-app
+which created the app my-app at `mysandbox/apps/my-app`
+to start the app
 ```
-cd my-app
-yarn dev
+cd mysandbox
+yarn start my-app
 ```
 
 ### adding first component to my-app
-You must start by creating a workspace
+
 ```
 cd my-app
 npx create-nx-workspace@latest my-app
